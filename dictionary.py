@@ -1,5 +1,7 @@
+
 import operator
-test_str='geeksforgeeks'
+print('please enter a string')
+test_str=input()
 all_freq={}
 for i in test_str:
     if i in all_freq:
